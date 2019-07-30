@@ -7,7 +7,7 @@ authors = ["omni-viral <scareaangel@gmail.com>"]
 bitflags = "*"
 failure = "*"
 veclist = "*"
-gfx-hal = { git = "https://github.com/gfx-rs/gfx.git", optional = true }
+gfx-hal = { git = "https://github.com/zakorgy/gfx.git", optional = true, branch = "metal_for_gecko" }
 ash = { version = "*", optional = true }
 either = "*"
 
